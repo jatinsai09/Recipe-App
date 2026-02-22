@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+📌 Recipe-App — Project Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Recipe-App is a web application built with React.js that allows users to search, browse, and view food recipes, including ingredient lists and images. The app fetches recipe data from an external API and displays results based on user input. Users can explore different dishes and see detailed information about each recipe.
 
-## Available Scripts
+This app includes features such as:
 
-In the project directory, you can run:
+🔍 Recipe Search: Users can type keywords to search for recipes.
 
-### `npm start`
+📋 Recipe Listings: Shows a list of recipe cards with images and titles.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🍽 Recipe Details: Clicking a recipe shows more information, including ingredients and instructions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+⭐ Favorites: Users can save recipes to their favorites list using localStorage so favorites persist across sessions.
 
-### `npm test`
+🧩 Responsive UI: Built using React components and styled with Tailwind CSS, making the interface clean and modern.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project reinforces core React skills such as:
 
-### `npm run build`
+Component structure and props
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+State management (useState/useEffect)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Fetching data from APIs
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Conditional rendering and list rendering
 
-### `npm run eject`
+Using localStorage to persist data
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🛠 Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+✔ React.js
+✔ Tailwind CSS
+✔ React Router
+✔ localStorage for persistent favorites
+✔ Third-party recipe API for data
