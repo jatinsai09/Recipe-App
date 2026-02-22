@@ -16,20 +16,24 @@ This app includes features such as:
 
 This project reinforces core React skills such as:
 
-Component structure and props
+1.Component structure and props
 
-State management (useState/useEffect)
+2. State management (useState/useEffect)
 
-Fetching data from APIs
+3. Fetching data from APIs
 
-Conditional rendering and list rendering
+4. Conditional rendering and list rendering
 
-Using localStorage to persist data
+5. Using localStorage to persist data
 
 🛠 Technologies Used
 
 ✔ React.js
+
 ✔ Tailwind CSS
+
 ✔ React Router
+
 ✔ localStorage for persistent favorites
+
 ✔ Third-party recipe API for data
