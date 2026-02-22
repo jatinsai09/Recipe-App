@@ -16,7 +16,7 @@ This app includes features such as:
 
 This project reinforces core React skills such as:
 
-1.Component structure and props
+ 1.Component structure and props
 
 2. State management (useState/useEffect)
 
